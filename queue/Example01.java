@@ -23,5 +23,7 @@ public class Example01 {
         Integer element = queue.remove();
         System.out.println(element);
 
+        System.out.println(queue.peek());
+
     }
 }

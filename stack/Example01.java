@@ -14,15 +14,13 @@ public class Example01 {
         int index = stack.search(4);
         System.out.println(index);
 
-        for(Integer element:stack){
-            stack.pop();
-        }
 
-//        //pop element
-//        for(int element=1;element<=5;element++){
-//            Integer ele = stack.pop();
-//            System.out.print(ele+" ");
-//        }
+
+        //pop element
+        for(int element=1;element<=5;element++){
+            Integer ele = stack.pop();
+            System.out.print(ele+" ");
+        }
 
         System.out.println();
 
